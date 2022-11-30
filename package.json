@@ -2,6 +2,13 @@
   "name": "example",
   "main": "./src/main.ts",
   "version": "1.0.0",
+  "nativescript": {
+    "id": "sa.litedev.sanar"
+  },
+  "scripts": {
+    "android": "tns run android",
+    "ios": "ns run ios"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~14.2.0",
@@ -15,12 +22,16 @@
     "@nativescript/angular": "~14.2.0",
     "@nativescript/core": "~8.3.0",
     "@nativescript/theme": "~3.0.2",
+    "nativescript-advanced-webview": "^7.0.1",
+    "nativescript-inappbrowser": "^3.2.0",
     "rxjs": "~7.5.0",
     "zone.js": "~0.11.5"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~14.2.0",
     "@angular/compiler-cli": "~14.2.0",
+    "@nativescript/android": "8.3.1",
+    "@nativescript/ios": "8.3.3",
     "@nativescript/types": "~8.3.0",
     "@nativescript/webpack": "~5.0.9",
     "@ngtools/webpack": "~14.2.0",

@@ -1,11 +1,15 @@
-<ActionBar title="My App"> </ActionBar>
+<ActionBar title="Sanar Telemedicine"> </ActionBar>
 
 <GridLayout>
   <ListView [items]="items">
     <ng-template let-item="item">
       <StackLayout [nsRouterLink]="['/item', item.id]">
         <Label [text]="item.name"></Label>
+        <Label [text]="browsereOn ? 'yes' : 'no'"></Label>
       </StackLayout>
     </ng-template>
   </ListView>
+  
+  
+  <button text="Tap me!" (tap)="onTap()"></button>
 </GridLayout>

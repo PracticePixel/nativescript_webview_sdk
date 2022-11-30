@@ -1,7 +1,7 @@
 import { NativeScriptConfig } from '@nativescript/core';
 
 export default {
-  id: 'org.nativescript.example',
+  id: 'sa.litedev.sanar',
   appPath: 'src',
   appResourcesPath: 'App_Resources',
   android: {
